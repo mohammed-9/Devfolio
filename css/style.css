@@ -1,0 +1,263 @@
+body{
+    background-color: #f5f5f5;
+    color:  #4e4e4e;
+}
+.section-one{
+    background-image: url(../images/intro-bg.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+}
+.layer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0,0.7);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+.text h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;    
+    letter-spacing: 3px;
+    margin-top: 0;
+}
+.animation{
+    font-weight: 500;
+}
+
+.carsol-edit{
+    position: static;
+    color: #d3e1ff;
+    font-size: 20px;
+}
+.text p{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+.nav-edit{
+    background-color: rgba(0, 0, 0,0.8);
+}
+.before{
+    position: relative;
+}
+.before::before{
+    content: "";
+    margin-top: 24px;
+    width: 45px;
+    position: absolute;
+    border-bottom:  2px solid #fff;
+}
+.after{
+    position: relative;
+
+}
+.after::before{
+    content: "";
+    margin-top: 24px;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    transition:  all 0.5s;
+}
+.after:hover::before{
+    border-bottom:  3px solid #fff ;
+    left: 10px;
+    width: 40px;
+} 
+.container-about{
+    background-color: #fff;
+}
+.skills p{
+    margin-top:  10px;
+}
+.border-about::before{
+        content: "";
+        position: absolute;
+        height: 3px;
+        background-color: #0078ff;
+        width: 100px;
+        bottom: -12px;
+}
+.image-test img{
+    width: 80%;
+
+}
+.info-about p{
+    font-size: 1.28rem;
+    font-weight: 200;
+}
+.border-service::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 50px;
+    bottom: 45px;
+    left: 48%;
+}
+.text-dark{
+    font-size: 2.5rem;
+}
+.service-info{
+    border-radius: 15px;
+    background-color: #fff;
+
+}
+.icon-service{
+    width: 90px;
+    height: 90px;
+    background-color:#fff;
+    font-size: 50px;
+    border-radius:  50% 50%;
+    box-shadow: 0 0 0 7px #0078ff;
+    transition: all 500ms ease;
+    
+}
+.icon-service:hover{
+    background-color: #09c;
+    color: white;
+    box-shadow: 0 0 0 10px #e2e3e7;
+
+}
+
+.text-service{
+    line-height: 25px;
+}
+.fa-envelope{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50%;
+}
+.image-counter{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 7rem 0;
+    background-attachment: fixed;
+
+}
+.image-carsol{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 7rem 0;
+    background-attachment: fixed;
+
+}
+.layer-counter{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: #0078ff;
+}
+
+.icon-count{
+    box-shadow: 0 0 0 9px #e2e3e7;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #f5f5f5;
+}
+.icons-port{
+    font-size: 20px;
+    border: 2px solid #09c;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+}
+.portfolio-img{
+    overflow: hidden;
+}
+.portfolio-img img{
+    transition:  all 1s;
+}
+
+.portfolio-img:hover img{
+
+transform:scale(1.3);
+}
+.text-muted img{
+    width: 35px;
+    height: 35px; 
+    border-radius: 50%;
+}
+.box-web {
+    margin-top: -35px;
+}
+.box-web h6{
+    color: #fff;
+}
+.word-web{
+    width: 28%;
+    background-color:#0078ff ;
+    margin: auto;
+}
+.title-form ::before{
+content: "";
+width: 110px;
+height: 2px;
+top: 75px;
+background-color: blue;
+position: absolute;
+}
+.btn-form{
+    background: #0078ff;
+    border: 0;
+    border-radius:30px;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+}
+.btn-form:hover{
+    box-shadow: 0 0 0 7px #d3e1ff;
+    padding: 10px;
+    background-color: rgb(82, 122, 196,);
+}
+.title-forms::before{
+    content: "";
+    width: 110px;
+    height: 2px;
+    top: 42px;
+    background-color: #0078ff ;
+    position:absolute;
+}
+.social-icon {
+text-align: center;
+width: 40px;
+height: 40px;
+font-size: 1.2rem;
+border-radius: 50%;
+line-height: 1.6;
+margin: 0 15px 0 0;
+box-shadow: 0 0 0 3px #0078ff;
+transition: all 0.5s ease;
+}
+.social-icon:hover{
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 4px #d3e1ff;
+}
+.container-fluid{
+    height: 100px;
+    background-color:#0062d3;
+    padding: 25px 0;
+}
+.container-form{
+    margin-bottom: -55px;
+}
+
+
+
